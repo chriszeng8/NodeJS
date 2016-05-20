@@ -1,0 +1,45 @@
+TCP/IP
+
+Protocol: a set of rules agreed between servers and clients.
+
+Client-server model: how is data transfered?
+
+Browser and Web Server both have IP.
+Socket (chancel for info flow) between web server and browser.
+HTTP, FTP, and SMTP (email) are sent in TCP protocol.
+Information is separated into packets. 
+
+Normal TCP/IP Sockets are opened and closed constantly.
+Web Sockets are kept open constantly.
+
+
+
+
+PORT: 
+mapping port number of information being sent. 
+
+The whole thing is called socket address.
+78.132.160.4:443
+
+normally,
+web address is mapped to a socket address.
+
+          request       |Web Server|
+|Browser| ======>   443  Node JS
+          
+
+
+HTTP request/response
+
+* MIME type:
+A standard for specifying the type of data being sent.
+Stands for 'multipurpose Internet Mail Extensions'.
+Examples: appplcation/json
+
+Node can specify the MIME type.
+
+* HTTP PARSER
+break into pieces, use it.
+A program embedded in NodeJS （http-parser, written in C)
+
+
